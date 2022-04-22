@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Share Tech Mono';
+    src: url("stm.ttf");
+}
+@font-face{
+    font-family: 'Clear Sans Thin';
+    src: url("../fonts/cst.ttf");
+  }
+header{
+    margin: -8px -11px -28px -8px;
+    padding: 0;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+#logo {
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+    margin: 10px 0 0 40px;
+    font-size: 1em;
+}
+#grad {
+    background-image: linear-gradient(to right, #1A142A, #1B152B, #271415);
+  }
+#mc{
+    font-family: 'Clear Sans Thin';
+    color: #fff;
+    margin: -140px 0 0 10px;
+    font-size: 1.6em;
+    letter-spacing: 11px;
+    z-index: 1;
+}
+.first {
+    display: unset;
+    margin: -25px 0 0 305px;
+    width: 40%;
+    border-radius: 150px;
+}
+#deh{
+    color: #fff;
+    font-family: 'Advent Pro', sans-serif;
+    margin: 0 0 0 50px;
+    font-size: 10px;
+}
+#hl, #hl2{
+    font-family: 'Advent Pro', sans-serif;
+    color: #fff;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+}
+#hl{
+    margin-top: 30px;
+}
+.field{
+    font-family: 'Advent Pro', sans-serif;
+    color: #fff;
+    margin-left: 10px;
+}
+#signup{
+    z-index: 3;
+}
+#vaga{
+    color: #fff;
+    margin: 10px;
+    font-family: 'Clear Sans Thin';
+    font-weight: 100;
+}
+#gradformulario{
+    background-image: linear-gradient(to right, #1A142A, #1B152B, #271415);
+    margin: 28px -11px -28px -8px;
+    padding: 0;
+    display: flex;
+}
+#name{
+    margin-top: -30px;
+}
+#email{
+    margin-left: 3px;
+}
+#sub1{
+    margin: 5px 0px 0px 19px;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.1em;
+    border-radius: 6px;
+}
+.lp2{
+    width: 36%;
+    margin: -203px 0px 0px -10px;
+    border-radius: 100px;
+}
+#instrutora{
+    margin: -210px 0px 0px 220px;
+    font-family: 'Clear Sans Thin';
+    font-weight: 100;
+    font-size: 1.4em;
+}
+#vl1 {
+    border-left: 6px solid #1A142A;
+    height: 210px;
+    display: inline-block;
+    margin: 28px 0px 0px 25px;
+  }
+#description{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 15.9px;
+    display: inline-block;
+    margin: 8px 0px 0px 220px;
+}
+#nomargin, #ld{
+    display: grid;
+    margin: 1px 0em 0em 0em;
+    padding: 0px;
+}
+#ld{
+    color: #1A142A;
+    opacity: 0.3;
+}
+#attheend{
+    background-color: #1A142A;
+}
+#ao_final, #skill1, #skill2, #skill3, #skill4{
+    color: #fff;
+}
+#ao_final{
+    font-family: 'Advent Pro';
+    margin: 0em 2em 0em 2em;
+    font-size: 1.5em;
+}
+#skill1{
+    margin: 0em 8em 0em 9em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+}
+#s1 {
+    margin: -2px 7em 0px 7em;
+    opacity: 1;
+    height: 2px;
+    color: #fff;
+}
+#vl2{
+    border-left: 1px solid #fff;
+    height: 27px;
+    margin: -25px 0px 0px 7em;
+
+}
+#vl3{
+    border-left: 1px solid #fff;
+    height: 29px;
+    margin: -27px 0px 0px 21.5em;
+}
+hr, .vl{
+    opacity: 1;
+}
+#skill2{
+    margin: 0em 8em 0em 9em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+}
+#s2{
+    margin: -2px 7em 0px 7em;
+    opacity: 1;
+    height: 2px;
+    color: #fff;
+}
+#vl4{
+    border-left: 1px solid #fff;
+    height: 27px;
+    margin: -25px 0px 0px 7em;
+
+}
+#vl5{
+    border-left: 1px solid #fff;
+    height: 29px;
+    margin: -27px 0px 0px 21.5em;
+}
+#lp4{
+    width: 60%;
+    margin: 0px 0em 0px 6em;
+}
+#skill3{
+    margin: 0em 8em 0em 9em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+}
+#s3{
+    margin: -2px 7em 0px 7em;
+    opacity: 1;
+    height: 2px;
+    color: #fff;
+}
+#vl6{
+    border-left: 1px solid #fff;
+    height: 27px;
+    margin: -25px 0px 0px 7em;
+
+}
+#vl7{
+    border-left: 1px solid #fff;
+    height: 29px;
+    margin: -27px 0px 0px 21.5em;
+}
+#skill4{
+    margin: 0em 8em 0em 9em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+}
+#s4{
+    margin: -2px 7em 0px 7em;
+    opacity: 1;
+    height: 2px;
+    color: #fff;
+}
+#vl8{
+    border-left: 1px solid #fff;
+    height: 27px;
+    margin: -25px 0px 0px 7em;
+
+}
+#vl9{
+    border-left: 1px solid #fff;
+    height: 29px;
+    margin: -27px 0px 0px 21.5em;
+}
