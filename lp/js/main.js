@@ -54,8 +54,8 @@ form.addEventListener("submit", function (event) {
 	let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
 	// if valid, submit the form.
 	if (nameValid && emailValid) {
-        // mudar aqui e redirecionar p pagina de inscricao confirmada
-		alert("Demo only. No form was posted.");
+        // to be redirected to typ
+		alert("Still in development mode.");
 	}
 });
 
